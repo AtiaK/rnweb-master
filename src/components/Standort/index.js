@@ -11,8 +11,7 @@ const Standort = () => {
     <View style={styles.container}>
       <Text style={styles.txtHeading}>Kontakt</Text>
       <View style={styles.formContainer}>
-        <View style={{ width: 340,  marginRight:10,
-          flexGrow:1,}}>
+        <View style={{flexBasis:300,    flexGrow: 1,  marginRight: 10 }}>
           <Text style={styles.txt}>
             Title{"\n"} Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Scelerisque luctus cursus scelerisque etiam est gravida felis.
@@ -22,12 +21,13 @@ const Standort = () => {
             aenean mattis amet ligula. Aliquet ac, habitant facilisis ac.
           </Text>
         </View>
-        <View style={{ 
-          // width: width / 2 - 100
-          width:300,
-          marginLeft:10,
-          flexGrow:1,
-       }}>
+        <View
+          style={{
+            flexBasis:300, 
+            marginLeft: 10,
+            flexGrow: 1,
+          }}
+        >
           <View style={styles.inputContainer}>
             <Text style={styles.lblTxt}>Name</Text>
             <TextInput
@@ -93,7 +93,7 @@ const Standort = () => {
 };
 const styles = StyleSheet.create({
   container: {
-    // flex:1,
+    
     marginHorizontal: 40,
     marginVertical: 40,
   },
@@ -110,7 +110,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: colour.lightGray,
     marginTop: 20,
-    flexGrow: 1,
   },
   input: {
     height: 40,
@@ -124,7 +123,6 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: "row",
     alignItems: "flex-end",
-    flexGrow: 1,
   },
   lblTxt: {
     color: colour.lightGray,
@@ -132,9 +130,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   formContainer: {
-    flex: 1,
     flexDirection: "row",
-
     justifyContent: "space-between",
     alignItems: "flex-start",
     flexWrap: "wrap",
@@ -155,7 +151,7 @@ const styles = StyleSheet.create({
   },
   borderTxt: {
     color: colour.solidWhite,
-    fontSize: 20,
+    fontSize: 16,
     marginBottom: 10,
   },
   borderContainer: {

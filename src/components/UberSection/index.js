@@ -47,10 +47,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: colour.lightGray,
     marginTop: 20,
-    // width: width / 2 - 200,
     marginRight:10,
     flexGrow:1,
-    width: 400,
+    width: width/2,
   },
   txtContainer: {
     flex: 1,

@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native-web";
+import { View, Image, StyleSheet } from "react-native";
 import Btn from "../Btn";
 
 const Navbar = () => {
