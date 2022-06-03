@@ -11,7 +11,7 @@ import Header from "../../components/Header";
 import HeadlineSection from "../../components/HeadlineSection";
 import Jobs from "../../components/Jobs";
 import Kontact from "../../components/Kontact";
-import Navbar from "../../components/NavBar";
+import Navbar from "../../components/Navbar";
 import Standort from "../../components/Standort";
 import { colour } from "../../components/theme";
 import UberSection from "../../components/UberSection";
